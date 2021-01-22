@@ -56,11 +56,8 @@ export default (() => {
 			Made on Quarkly
 		</Link>
 		<RawHtml>
-			<script place={"endOfBody"} rawKey={"600a71476f64452b48c4e7a4"}>
-				{"<script>\nfunction ready() {\n    require(['jquery'], function($) {\nSmoothScroll({\n    // Время скролла 400 = 0.4 секунды\n    animationTime    : 800,\n    // Размер шага в пикселях \n    stepSize         : 75,\n\n    // Дополнительные настройки:\n    \n    // Ускорение \n    accelerationDelta : 30,  \n    // Максимальное ускорение\n    accelerationMax   : 2,   \n\n    // Поддержка клавиатуры\n    keyboardSupport   : true,  \n    // Шаг скролла стрелками на клавиатуре в пикселях\n    arrowScroll       : 50,\n\n    // Pulse (less tweakable)\n    // ratio of \"tail\" to \"acceleration\"\n    pulseAlgorithm   : true,\n    pulseScale       : 4,\n    pulseNormalize   : 1,\n\n    // Поддержка тачпада\n    touchpadSupport   : true,\n})\n    });\n} \ndocument.addEventListener(\"DOMContentLoaded\", ready);\n</script>\n\n"}
-			</script>
-			<script place={"endOfHead"} rawKey={"600a71b694429f726f95b62d"}>
-				{"<script src=\"https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js\" integrity=\"sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=\" crossorigin=\"anonymous\">\n"}
+			<script place={"endOfBody"} rawKey={"600a7c406f6b0d7754ba07c9"}>
+				{"<script>\nalert(\"Test\");\n</script>"}
 			</script>
 		</RawHtml>
 	</Theme>;
